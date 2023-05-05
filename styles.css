@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 body {
   background-color: #FFD3B9;
@@ -11,6 +11,7 @@ body {
 .topo {
   background-color: #4E1B1B;
   width: 100%;
+
 }
 
 .pesquisa {
@@ -44,12 +45,27 @@ body {
   border-radius: 0.7rem;
 }
 
+a {
+  color: #4E1B1B;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 .end {
   float: right;
 }
 
 .titulo1 {
   font-size: 11;
+}
+
+.titulo2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: #4E1B1B;
 }
 
 
@@ -59,7 +75,7 @@ h3 {
   font-family: 'Pacifico', cursive;
   font-weight: normal;
   text-align: center;
-  color: #4E1B1B
+  color: #4E1B1B;
 }
 
 p {
@@ -68,9 +84,33 @@ p {
   text-align: center;
 }
 
+.protocolo {
+  /* padding-left: 20px;
+  float: left;
+  padding: 1em;
+  /*width: 200px;*/
+  /* height: 100%;
+  overflow: auto;
+  position: fixed;*/
+  clear: left;
+  color: #4E1B1B;
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  left: 24%;
+  top: 20%;
+  margin-left: -300px;
+}
+
+/* 
+.sobre {
+  border: 2px solid #000000;
+} */
+
 footer {
   position: absolute;
   bottom: 0;
+  top: 100%;
   width: 100%;
   height: 2.5rem;
   text-align: center;
